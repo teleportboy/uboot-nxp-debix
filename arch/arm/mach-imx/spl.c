@@ -389,7 +389,7 @@ int board_handle_rdc_config(void *fdt_addr, const char *config_name, void *dst_a
 	uint32_t *data = NULL;
 	const struct fdt_property *prop;
 
-	node = fdt_node_offset_by_compatible(fdt_addr, -1, "imx8m,mcu_rdc");
+	node = fdt_node_offset_by_compatible(fdt_addr, -1, "imx8m,mcu_rdcsukaebanaya");
 	if (node < 0) {
 		printf("Failed to find node!, err: %d!\n", node);
 		ret = -1;
