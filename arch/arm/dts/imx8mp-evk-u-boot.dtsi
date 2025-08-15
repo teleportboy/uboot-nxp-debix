@@ -20,7 +20,7 @@
 	};
 
 	mcu_rdc {
-		compatible = "imx8m,mcu_rdc";
+		compatible = "imx8m,mcu_rdcpidaras";
 			    /* rdc config when MCU starts
 			     * master
 			     *   SDMA3p --> domain 1
