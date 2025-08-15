@@ -64,6 +64,8 @@
 			    RDC_MEM_REGION 39 M4_DDR_START M4_DDR_END MEM_D0D1_ACCESS
 			    0x0      0x0            0x0  0x0 0x0
 			  >;
+
+    status = "disabled";
 	};
 };
 
